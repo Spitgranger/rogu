@@ -1,6 +1,7 @@
 *{
   font-family: Roboto;
   padding-bottom: none;
+  
 }
 body{
   background-color: rgb(244, 244, 244);
@@ -9,6 +10,7 @@ body{
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 
 }
 .left-section{
@@ -17,6 +19,8 @@ body{
 .buttons{
   display: flex; 
   flex-direction: row;
+  width: 200px;
+  align-items: center;
 }
 .search-icon{
   width: 12.5px;
@@ -71,16 +75,17 @@ i{
 .buttons{
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: end;
+  height: 25px;
 }
 .listing{
   width: 160px;
-  height: 300px;
+  cursor: pointer;
 }
 .listing-picture{
-  width: 160px;
-  object-fit: fill;
+  width: 100%;
   border-radius: 4px;
+  object-fit: cover;
 }
 .description{
   display: block;
@@ -94,3 +99,62 @@ i{
   display: block;
   font-size: 7px;
 }
+.price{
+  margin-top: 3px;
+  color: black;
+  display: block;
+  font-size: 8px;
+}
+.rating{
+  font-size: 8px;
+  font-weight: bold;
+  float: right;
+}
+.location,  .distance, .price{
+  float: left;
+  clear: left;
+}
+
+.listings{
+  width: 860px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 9px;
+  row-gap: 15px;
+  margin: auto;
+}
+
+.language-dropdown button{
+  width: 100%;
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border: none;
+}
+.language-dropdown button:hover{
+  background-color:rgb(128, 128, 128);
+}
+.language-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 90px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.language:hover .language-dropdown {
+  display: block;
+}
+.language{
+  border: none;
+  height: 25px;
+}
+.flag{
+  height: 25px;
+  border-radius: 12.5px;
+}
+
