@@ -1,0 +1,40 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  width: 100%;
+}
+.image{
+  font-size: 60px;
+  color: #ff2525;
+  font-weight: 700;
+}
+.header-center{
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: fit-content;
+  padding: 10px;
+  height: 30px;
+  background-color: #f4f4f4;
+  border-radius: 999px;
+}
+
+.header-center > input{
+  background-color: #f4f4f4;
+  border: none;
+  width: 275px;
+  outline: none;
+  padding: 10px;
+}
+
+
+.header-right{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+}

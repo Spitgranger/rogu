@@ -1,0 +1,12 @@
+.breakdown{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 25vh;
+  background-color: #f4f4f4;
+  padding: 30px;
+  width: 25vw;
+}
+.breakdown {
+  text-align: right;
+}

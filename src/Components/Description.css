@@ -1,0 +1,32 @@
+.activities{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+}
+.activities button{
+  border: 3px solid red;
+  background: none;
+  border-radius: 4px;
+  font-weight: bold;
+  padding: 1%;
+  font-size: 25px;
+}
+.description{
+  display: flex;
+  margin-top: 2vh;
+  width: 100%;
+}
+.description p{
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.description h1{
+  margin-bottom: 5px;
+}
+.description-text-content{
+  display: flex;
+  flex-direction: column;
+  width: 60%
+}

@@ -1,0 +1,42 @@
+.profile-picture-container{
+  position: relative;
+  cursor: pointer;
+}
+.profile-picture{
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 999px;
+  border: solid 10px white;
+  transition: box-shadow 0.3s
+}
+.profile-picture:hover{
+  box-shadow: 0 4px 1px rgba(0,0,0,.25);
+}
+.profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f4;
+  width: 30%;
+  border-radius: 25px;
+  position: absolute;
+  right:0;
+  box-shadow: 0 1px 1px rgba(0,0,0,.25);
+  margin-right: 2%;
+  padding: 2%;
+}
+.profile-info {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.profile-location p{
+  font-size: 1.3vw;
+}
+.rating-number, .listing-number, .guest-number{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
