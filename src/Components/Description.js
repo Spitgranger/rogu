@@ -4,9 +4,9 @@ import Profile from "./Profile";
 
 function Description() {
   const activities = [
-    "Shooting",
+    "Sports",
     "Eating",
-    "Killing",
+    "Picnic",
     "Fireplace",
     "Studio",
     "Fishing",
